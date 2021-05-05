@@ -1,11 +1,9 @@
 {
-
   "scripts": {
-      "git": "git add . && git commit -m",
+    "git": "git add . && git commit -m",
     "postgit": "git push --all"
   },
   "dependencies": {
     "axios": "^0.21.1"
   }
-
 }

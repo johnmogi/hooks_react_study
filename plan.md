@@ -51,3 +51,8 @@ map an empty object?
 need to solidify something there.
 
 also figure out way to use hooks and useeffect in the sense for setinterval (for selected 5)
+
+looking into ways to build the dom:
+https://medium.com/@cwlsn/how-to-fetch-data-with-react-hooks-in-a-minute-e0f9a15a44d6
+
+still some issues emerge
