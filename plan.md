@@ -47,12 +47,37 @@ function App() {
 export default App;
 
 0. status: fetch succeeds, however data extraction from an array?
-map an empty object?
-need to solidify something there.
+
 
 also figure out way to use hooks and useeffect in the sense for setinterval (for selected 5)
 
 looking into ways to build the dom:
 https://medium.com/@cwlsn/how-to-fetch-data-with-react-hooks-in-a-minute-e0f9a15a44d6
 
-still some issues emerge
+the list gets rendered.
+
+would like to:
+
+display data in bs grid cards
+store data in an array,
+refresh the array on intervals (in groups of selected 5)
+
+
+eslint:
+https://www.codebrain.co.il/eslint-tutorial/
+
+axios:
+https://www.codebrain.co.il/%d7%98%d7%99%d7%a4%d7%99%d7%9d-%d7%9c%d7%91%d7%99%d7%a6%d7%95%d7%a2-%d7%91%d7%a7%d7%a9%d7%95%d7%aa-http-%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa-axios/
+
+promises:
+https://www.codebrain.co.il/javascript-async-await-promises-callbacks/
+
+
+0. footer getCurrentYear:
+ const [date, setDate] = useState();
+  const getYear = () => setDate(new Date().getFullYear());
+    useEffect(() => {
+    getYear();
+  }, []);
+  {date}
+
